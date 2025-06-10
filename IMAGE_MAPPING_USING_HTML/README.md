@@ -9,7 +9,7 @@ The objective of this exercise is to create an interactive webpage using HTML by
 3. Define clickable areas (hotspots) within the image using the `<area>` tag, specifying the shape and coordinate points using the `shape` and `coords` attributes respectively.
 4. Develop individual HTML files containing detailed information related to each hotspot.
 5. Link each hotspot to its corresponding HTML file using the `href` attribute within the `<area>` tag.
-6. Open the primary HTML file in a web browser.
+6. Open the primary HTML file (Browsers.html) in a web browser.
 7. Navigate and interact with the hotspots to ensure they display the correct linked information when clicked.
 
 ## Result
