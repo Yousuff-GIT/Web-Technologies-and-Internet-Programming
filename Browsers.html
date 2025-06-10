@@ -1,0 +1,38 @@
+<!-- This HTML file demonstrates the usage of image mapping in HTML to create interactive hotspots on an image. -->
+<!-- Each hotspot is linked to a corresponding HTML file containing detailed information about the respective web browser. -->
+
+<html>
+<head>
+    <title>Web Browsers</title>
+</head>
+<body>
+
+<!-- Main heading instructing the user to click on the browser logos -->
+<h1>Click the browser logo to know more...</h1>
+<br />
+
+<!-- The image containing the web browser logos is embedded here. -->
+<!-- The attribute 'usemap' associates the image with a defined map having hotspots. -->
+<img src="Images/browsers.png" align="middle" usemap="#Browser"/>
+
+<!-- Defining the map with multiple hotspots using the 'area' elements -->
+<map name="Browser">
+
+    <!-- Defining a rectangular hotspot for Chrome browser -->
+    <!-- Coordinates specify the rectangular area to be clickable -->
+    <!-- The 'href' attribute links to the HTML page containing Chrome browser information -->
+    <area shape="rect" coords="0,0,260,225" href="chrome.html" title="Chrome"/>
+
+    <!-- Defining a rectangular hotspot for Internet Explorer browser -->
+    <area shape="rect" coords="426,8,686,243" href="intexp.html" title="Internet Explorer"/>
+
+    <!-- Defining a polygonal hotspot for Firefox browser -->
+    <area shape="poly" coords="154,293,404,229,356,445" href="firefox.html" title="Firefox"/>
+
+    <!-- Defining a circular hotspot for Safari browser -->
+    <area shape="circle" coords="735,345,110" href="safari.html" title="Safari"/>
+
+</map>
+
+</body>
+</html>
