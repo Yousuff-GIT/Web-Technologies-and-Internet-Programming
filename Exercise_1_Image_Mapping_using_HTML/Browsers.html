@@ -1,0 +1,30 @@
+<!--
+    This file demonstrates image mapping in HTML.
+    The <img> tag includes a 'usemap' attribute to link the image with the defined map.
+    The <map> tag is used to declare clickable areas on the image using <area> tags.
+-->
+<html>
+<head>
+    <title>Web Browsers</title>
+</head>
+<body>
+    <!-- Main heading for instruction -->
+    <h1>Click the browser logo to know more...</h1>
+    <br />
+
+    <!-- Embedded image with an associated image map -->
+    <img src="Images/browsers.png" align="middle" usemap="#Browser"/>
+
+    <!-- The map element defines the interactive areas (hotspots) on the image -->
+    <map name="Browser">
+        <!-- Rectangle-shaped clickable area for Chrome -->
+        <area shape="rect" coords="0,0,260,225" href="chrome.html" title="Chrome"/>
+        <!-- Rectangle-shaped clickable area for Internet Explorer -->
+        <area shape="rect" coords="426,8,686,243" href="intexp.html" title="Internet Explorer"/>
+        <!-- Polygon-shaped clickable area for Firefox -->
+        <area shape="poly" coords="154,293,404,229,356,445" href="firefox.html" title="Firefox"/>
+        <!-- Circle-shaped clickable area for Safari -->
+        <area shape="circle" coords="735,345,110" href="safari.html" title="Safari"/>
+    </map>
+</body>
+</html>
