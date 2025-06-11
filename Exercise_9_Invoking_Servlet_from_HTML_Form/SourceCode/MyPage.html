@@ -1,0 +1,24 @@
+<!-- MyPage.html -->
+<!-- This HTML page acts as the client interface to capture user input and invoke the Java servlet. -->
+<html>
+<head>
+    <title>HTML - Servlet Communication</title>
+</head>
+<body>
+    <h1 align="center">HTML - Servlet Communication</h1>
+    <br><br><br>
+    <!-- Form that sends POST request to the servlet -->
+    <form name="calculation" method="post" action="MyServlet_html">
+        <div align="center">
+            <!-- Input field for user's name -->
+            <p> Enter your Name <input type="text" name="username" /></p>
+            <p>Enter two numeric values</p>
+            <!-- Input fields for numeric values -->
+            <p>Number 1 <input type="text" name="number1" /></p>
+            <p>Number 2 <input type="text" name="number2" /></p>
+            <br>
+            <p><input type="submit" name="button" value="Calculate" /></p>
+        </div>
+    </form>
+</body>
+</html>
