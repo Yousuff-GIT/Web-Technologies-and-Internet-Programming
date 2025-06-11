@@ -1,8 +1,5 @@
 # EXNO: 1C - XML Document Reading Application
 
-## Date
-_(To be filled by student/teacher during evaluation)_
-
 ## Aim
 To develop a Java-based web application using JSP to read user information from an XML document hosted on a server.
 
