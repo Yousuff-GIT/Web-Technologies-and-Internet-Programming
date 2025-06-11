@@ -21,7 +21,7 @@ public class FTPServer {
             System.exit(1);
         }
 
-        // Infinite loop to keep server running and accepting connections
+        // Loop to keep server running and accepting connections
         while (true) {
             try {
                 // Accept incoming client connection
