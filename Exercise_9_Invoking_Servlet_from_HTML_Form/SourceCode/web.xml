@@ -1,0 +1,14 @@
+<!-- web.xml -->
+<!-- Deployment descriptor to define servlet configuration and URL mapping -->
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <display-name>Exercise5a</display-name>
+    <servlet>
+        <servlet-name>MyServlet_html</servlet-name>
+        <servlet-class>MyServlet_html</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyServlet_html</servlet-name>
+        <url-pattern>/MyServlet_html</url-pattern>
+    </servlet-mapping>
+</web-app>
