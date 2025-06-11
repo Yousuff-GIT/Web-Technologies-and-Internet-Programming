@@ -1,7 +1,7 @@
 # Exercise 2C (ii): Invoking Servlet from Applet
 
-**Date:**  
-**Aim:**  
+
+## Aim:
 To write a servlet and applet program using Java and to invoke the servlet from applet.
 
 ---
