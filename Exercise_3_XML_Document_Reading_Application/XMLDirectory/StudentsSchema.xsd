@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML Schema defining the structure and data types for Student information -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- Root element 'Datasheet' containing a sequence of 'Student_Info' -->
+    <xs:element name="Datasheet">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- 'Student_Info' element can occur multiple times, minimum 10 entries -->
+                <xs:element name="Student_Info" minOccurs="10" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!-- Each student record includes the following details -->
+                            <xs:element type="xs:integer" name="Rollno"/>
+                            <xs:element type="xs:string" name="Name"/>
+                            <xs:element type="xs:string" name="Gender"/>
+                            <xs:element type="xs:string" name="Degree"/>
+                            <xs:element type="xs:string" name="Discipline"/>
+                            <xs:element type="xs:string" name="Batch"/>
+                            <xs:element type="xs:string" name="Year"/>
+                            <xs:element type="xs:integer" name="Semester"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
