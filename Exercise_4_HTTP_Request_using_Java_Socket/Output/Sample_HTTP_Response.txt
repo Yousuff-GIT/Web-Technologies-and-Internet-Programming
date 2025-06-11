@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Accept-Ranges: bytes
+ETag: W/"245-1440164140249"
+Last-Modified: Fri, 21 Aug 2015 13:35:40 GMT
+Content-Type: text/html
+Content-Length: 245
+Date: Fri, 21 Aug 2015 13:45:21 GMT
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>HTTP Request</title>
+</head>
+<body>
+    <h1 align="center">Welcome to Java Socket Programming</h1>
+    <hr>
+    <h2 align="center">Demonstration of HTTP Request</h2>
+</body>
+</html>
