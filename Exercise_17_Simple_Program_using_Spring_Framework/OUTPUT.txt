@@ -1,7 +1,0 @@
-Implementation of Spring Framework
-
-Demonstration of Object Injection
-
-EmpID     Name       Designation     Salary
-12345     Abcdefgh   Developer       30000
-78654     Qwertyui   Manager         40000
