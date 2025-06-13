@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+id="WebApp_ID" version="2.5">
+<display-name>OnlineExam</display-name>
+<welcome-file-list>
+<welcome-file>default.jsp</welcome-file>
+</welcome-file-list>
+<servlet>
+<display-name>ServletOne</display-name>
+<servlet-name>ServletOne</servlet-name>
+<servlet-class>ServletOne</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ServletOne</servlet-name>
+<url-pattern>/validation</url-pattern>
+</servlet-mapping>
+<servlet>
+<display-name>ServletTwo</display-name>
+<servlet-name>ServletTwo</servlet-name>
+<servlet-class>ServletTwo</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ServletTwo</servlet-name>
+<url-pattern>/evaluation</url-pattern>
+</servlet-mapping>
+</web-app>
