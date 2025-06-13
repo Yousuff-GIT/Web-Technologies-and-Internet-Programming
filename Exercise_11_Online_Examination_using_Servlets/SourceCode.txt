@@ -1,2 +1,0 @@
-Source code files should be placed here.
-Please refer to the exercise document for full code listings.
