@@ -1,1 +1,0 @@
-// Servlet for login validation and session handling
