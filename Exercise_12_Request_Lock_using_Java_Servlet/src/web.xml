@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         id="WebApp_ID" version="2.5">
+
+    <display-name>RequestLock</display-name>
+
+    <!-- Servlet declaration -->
+    <servlet>
+        <servlet-name>RequestBlocker</servlet-name>
+        <servlet-class>RequestBlocker</servlet-class>
+        <init-param>
+            <param-name>key</param-name>
+            <param-value>9f5ffc7a10e0bad054458b089947ce2f</param-value>
+        </init-param>
+    </servlet>
+
+    <!-- Servlet mapping -->
+    <servlet-mapping>
+        <servlet-name>RequestBlocker</servlet-name>
+        <url-pattern>/Request-Handler</url-pattern>
+    </servlet-mapping>
+</web-app>
