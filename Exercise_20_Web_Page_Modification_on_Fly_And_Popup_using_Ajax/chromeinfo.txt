@@ -1,0 +1,9 @@
+Chrome Web Browser
+
+Developer(s)     - Google Inc.
+Initial release  - 2008
+Written in       - C++, Assembly, Python, JavaScript
+Operating system - Android, Linux, Windows
+Engine           - WebKit, V8 JavaScript Engine
+Available in     - 50 languages
+License          - Freeware
