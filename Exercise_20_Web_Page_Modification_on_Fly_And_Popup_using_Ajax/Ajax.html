@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Asynchronous JavaScript and XML</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript">
+        var asyncRequest;
+
+        // Fetch content from browser-specific HTML using AJAX
+        function getContent(url) {
+            try {
+                asyncRequest = new XMLHttpRequest();
+                asyncRequest.onreadystatechange = stateChange;
+                asyncRequest.open('GET', url, true);
+                asyncRequest.send(null);
+            } catch (exception) {
+                alert('Request failed');
+            }
+        }
+
+        // Inject fetched content into the content area
+        function stateChange() {
+            if (asyncRequest.readyState == 4 && asyncRequest.status == 200) {
+                document.getElementById('contentArea').innerHTML = asyncRequest.responseText;
+            }
+        }
+
+        // Clear content from the display area
+        function clearContent() {
+            document.getElementById('contentArea').innerHTML = '';
+        }
+
+        // Popup display using alert() with AJAX
+        function Popup(url) {
+            try {
+                asyncRequest = new XMLHttpRequest();
+                asyncRequest.onreadystatechange = stateChange2;
+                asyncRequest.open('GET', url, true);
+                asyncRequest.send(null);
+            } catch (exception) {
+                alert('Request failed');
+            }
+        }
+
+        function stateChange2() {
+            if (asyncRequest.readyState == 4 && asyncRequest.status == 200) {
+                alert(asyncRequest.responseText);
+            }
+        }
+    </script>
+</head>
+<body>
+    <table style="border: ridge;" width="100%" cellspacing="5">
+        <tr>
+            <th colspan="4"><h1 align="center">Mouse Over on this Images</h1></th>
+        </tr>
+        <tr>
+            <td><img style="margin-left:50px" src="images/chrome.jpg" onmouseover='getContent("chrome.html")' onmouseout='clearContent()' ondblclick='Popup("chromeinfo.txt")'/></td>
+            <td><img style="margin-left:50px" src="images/firefox.jpg" onmouseover='getContent("firefox.html")' onmouseout='clearContent()'/></td>
+            <td><img style="margin-left:50px" src="images/iexplorer.jpg" onmouseover='getContent("intexp.html")' onmouseout='clearContent()'/></td>
+            <td><img style="margin-left:50px" src="images/safari.jpg" onmouseover='getContent("safari.html")' onmouseout='clearContent()'/></td>
+        </tr>
+    </table>
+    <div id='contentArea'></div>
+</body>
+</html>
