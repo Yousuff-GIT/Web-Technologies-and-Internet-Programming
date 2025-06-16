@@ -6,7 +6,7 @@ Welcome to the practical repository for *Web Technologies and Internet Programmi
 
 | Exercise No. | Title | Link |
 |--------------|-------|------|
-| EXNO:01 | Exercise 1 Image Mapping Using HTML | [View Folder](https://github.com/Yousuff-GIT/Web-Technologies-and-Internet-Programming/tree/main/EXNO01) |
+| EXNO:01 | Exercise 1 Image Mapping Using HTML | [View Folder](https://github.com/Yousuff-GIT/Web-Technologies-and-Internet-Programming/tree/main/Exercise_1_Image_Mapping_using_HTML) |
 | EXNO:02 | Exercise 2 Webpage Design Using CSS | [View Folder](https://github.com/Yousuff-GIT/Web-Technologies-and-Internet-Programming/tree/main/EXNO02) |
 | EXNO:03 | Exercise 3 XML Document Reading Application | [View Folder](https://github.com/Yousuff-GIT/Web-Technologies-and-Internet-Programming/tree/main/EXNO03) |
 | EXNO:04 | Exercise 4 HTTP Request using Java Socket | [View Folder](https://github.com/Yousuff-GIT/Web-Technologies-and-Internet-Programming/tree/main/EXNO04) |
