@@ -7,9 +7,9 @@ Welcome to the practical repository for *Web Technologies and Internet Programmi
 | Title | Link |
 |-------|------|
 | Exercise 1 Image Mapping Using HTML | [View Folder](https://github.com/Yousuff-GIT/Web-Technologies-and-Internet-Programming/tree/main/Exercise_1_Image_Mapping_using_HTML) |
-| Exercise 2 Webpage Design Using CSS | [View Folder](https://github.com/Yousuff-GIT/Web-Technologies-and-Internet-Programming/tree/main/EXNO02) |
-| Exercise 3 XML Document Reading Application | [View Folder](https://github.com/Yousuff-GIT/Web-Technologies-and-Internet-Programming/tree/main/EXNO03) |
-| Exercise 4 HTTP Request using Java Socket | [View Folder](https://github.com/Yousuff-GIT/Web-Technologies-and-Internet-Programming/tree/main/EXNO04) |
+| Exercise 2 Webpage Design Using CSS | [View Folder](https://github.com/Yousuff-GIT/Web-Technologies-and-Internet-Programming/tree/main/Exercise_2_Webpage_Design_using_CSS) |
+| Exercise 3 XML Document Reading Application | [View Folder](https://github.com/Yousuff-GIT/Web-Technologies-and-Internet-Programming/tree/main/Exercise_3_XML_Document_Reading_Application) |
+| Exercise 4 HTTP Request using Java Socket | [View Folder](https://github.com/Yousuff-GIT/Web-Technologies-and-Internet-Programming/tree/main/Exercise_4_HTTP_Request_using_Java_Socket) |
 | Exercise 5 FTP using Java Socket | [View Folder](https://github.com/Yousuff-GIT/Web-Technologies-and-Internet-Programming/tree/main/EXNO05) |
 | Exercise 6 SMTP Using Java Socket | [View Folder](https://github.com/Yousuff-GIT/Web-Technologies-and-Internet-Programming/tree/main/EXNO06) |
 | Exercise 7 POP3 Using Java Socket | [View Folder](https://github.com/Yousuff-GIT/Web-Technologies-and-Internet-Programming/tree/main/EXNO07) |
